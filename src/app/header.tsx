@@ -10,7 +10,9 @@ export default function Header() {
 
   return (
     <div className="w-full flex flex-row gap-2 p-4 items-center">
-      <FullLogo className="h-6 text-black dark:text-white" />
+      <a href="/">
+        <FullLogo className="h-6 text-black dark:text-white" />
+      </a>
       <div className="flex-auto" />
       <button
         className="btn btn-ghos btn-circle btn-sm"
