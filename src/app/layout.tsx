@@ -1,12 +1,12 @@
-import { type ReactNode } from 'react'
+import type { ReactNode } from 'react'
 import type { Metadata, Viewport } from 'next'
 
 import Header from './header'
+import Footer from './footer'
 
 import UiProvider from '@/providers/ui.provider'
 
 import '@/static/styles/global.scss'
-import Footer from './footer'
 
 export const metadata: Metadata = {
   title: 'noti3',

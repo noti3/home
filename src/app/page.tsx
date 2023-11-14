@@ -1,5 +1,3 @@
-'use client'
-
 import { LiteLogo } from '@/components/noti3'
 
 export default function App() {

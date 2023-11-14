@@ -1,12 +1,6 @@
-'use client'
-
 import { LiteLogo } from '@/components/noti3'
 
-import { useTheme } from '@/providers/ui.provider'
-
 export default function Footer() {
-  const { theme } = useTheme()
-
   return (
     <div className="w-full flex flex-auto gap-2 p-4 items-center border-t-2 border-base-300">
       <LiteLogo className="h-4 text-black dark:text-white" />
